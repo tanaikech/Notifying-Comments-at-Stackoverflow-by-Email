@@ -1,10 +1,10 @@
-Notifying Comments at Stackoverflow by Email
+Notifying Comments at Stackoverflow by Email using Google Apps Script
 =====
 
 <a name="TOP"></a>
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENCE)
 
-This is a script for sending an email when users got comments at Stackoverflow. I had wished I could get an email when I got a comment at Stackoverflow. Although I investigated about this, it seems that I can get the email every 3 hours.[Ref.](#References) For this situation, I wished I could get it much earlier. I thought that this can be achieved using GAS and Stack Exchange API. So I created this script. The features of this script are as follows.
+This is a script for sending an email when users got comments at Stackoverflow using Google Apps Script (GAS). I had wished I could get an email when I got a comment at Stackoverflow. Although I investigated about this, it seems that I can get the email every 3 hours.[Ref.](#References) For this situation, I wished I could get it much earlier. I thought that this can be achieved using GAS and Stack Exchange API. So I created this script. The features of this script are as follows.
 
 1. This script retrieves items in Inbox using Stack Exchange API v2.2 and send an email when new unread items are included in the Inbox. The inbox includes the comments from all sites including Stackoverflow and so on.
 1. Comments from the time that this script is run the last time to the current time that this script is run are retrieved as new comments.
