@@ -40,7 +40,7 @@ curl \
 ~~~
 
 ## 2. Install GAS script
-1. Copy and paste the script to your script editor.
+1. Copy and paste [the script](https://github.com/tanaikech/Notifying-Comments-at-Stackoverflow-by-Email/blob/master/Code.gs) to your script editor.
     - In order to open the script editor, visit [script.google.com](https://script.google.com/), and click "Start Scripting". By this the script editor is opened. (You'll need to be signed in to your Google account.) If this is the first time you've been to script.google.com, you'll be redirected to a page that introduces Apps Script. Click Start Scripting to proceed to the script editor. ([Ref.](https://developers.google.com/apps-script/overview))
 1. Input "Key", "accessToken" and "your email" to JSON object of "account" in "run()". email is used for sending the notification, when you received comments.
 1. Run "run()".
